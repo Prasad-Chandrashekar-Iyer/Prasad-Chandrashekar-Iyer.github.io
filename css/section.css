@@ -397,3 +397,7 @@ background-color: rgb(196, 27, 27);
     color: white;
     text-align: center;
 }
+#sec2 a,#sec2 a:visited{
+    text-decoration: none;
+    color: white;
+}
