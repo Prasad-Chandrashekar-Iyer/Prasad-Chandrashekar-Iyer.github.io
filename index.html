@@ -1,1 +1,600 @@
-<h1>Home</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/body.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/section.css" />
+
+    <body>
+      <div class="container">
+        <div id="navc">
+          <div id="navbarc">
+            <div class="namec">
+              <p>Prasad Iyer</p>
+            </div>
+            <div class="nhome" onclick="submenu()">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="submen">
+              <ul onclick="submenu()">
+                <li><a href="#">Home</a></li>
+                <li><a href="#sec22">About</a></li>
+                <li><a href="#sec33">Skills</a></li>
+                <li><a href="#sec44">Education</a></li>
+                &nbsp;&nbsp;
+                <li><a href="#sec55">Projects</a></li>
+                <li><a href="#sec66">Contact me</a></li>
+              </ul>
+            </div>
+            <div class="elec">
+              <ul>
+                <li><a href="#sec1">Home</a></li>
+                <li><a href="#sec2">About</a></li>
+                <li><a href="#sec3">Skills</a></li>
+                <li><a href="#sec4">Education</a></li>
+                <li><a href="#sec5">Projects</a></li>
+                <li><a href="#sec66">Contact me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="bodyc">
+          <div class="sectionc" id="sec1">
+            <div class="stscroll" href="#"><a href="#"><i class="fa-solid fa-up-long fa-bounce"></i></a></div>
+            <div class="iconc cdiv">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-linkedin fa-2xl"
+                  style="color: #1f5cc7"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-github fa-2xl"
+                  style="color: #2263d3"
+                ></i
+              ></a>
+            </div>
+            <div class="textc cdiv">
+              <h1>Hi, I am Prasad Iyer</h1>
+              <h3>Web Developer</h3>
+              <p>
+                I am a fresher, I have completed BE in Computer Engineering from
+                SIES Graduate School of Technology in Nerul. I have done
+                projects on Web Development, Machine Learning and Programming
+                Languages.
+              </p>
+              <button>
+                Contact Me <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </div>
+
+            <div class="photoc cdiv">
+              <img src="./images/photo.jpg" alt="Img Not Found" />
+            </div>
+          </div>
+          <div class="scrolc cdiv">
+            <a href="">
+              <i class="fa-solid fa-computer-mouse"></i> Scroll Down
+              <i class="fa-solid fa-arrow-down fa-bounce"></i
+            ></a>
+          </div>
+          <div id="sec22"></div>
+          <div class="sectionc" id="sec2">
+            <h1>About Me</h1>
+            <h4>My Introduction</h4>
+            <div class="contentc">
+              <div class="photoc">
+                <img src="./images/photo.jpg" alt="image not found" />
+              </div>
+              <div class="textc">
+                <p>
+                  Web developer, made projects on react, nodejs, html, css, php,
+                  python flask and databases like MySql, Mongodb, Firebase. I
+                  have good understanding of Java, C++, Object oriented
+                  concepts. I have also made mini-projects on react, nextjs
+                  using rest Api and hooks. I have also participated in various
+                  coding competitions like BugSquash, Hackathons, Innovations.
+                </p>
+
+                <div class="projbox">
+                  <h2>10+</h2>
+                  <p>Completed Projects</p>
+                </div>
+                <div class="projbox">
+                  <h2>1+</h2>
+                  <p>Internship's Completed</p>
+                </div>
+                <div class="projbox">
+                  <h2>1</h2>
+                  <p>Paper Published</p>
+                </div>
+                <button class="cvbut">Download CV</button>
+              </div>
+            </div>
+          </div>
+          <div id="sec33"></div>
+          <div class="sectionc" id="sec3">
+            <h1>Skills</h1>
+            <h4>My Technical level</h4>
+            <div class="skillsc">
+              <div class="skill1 skill">
+                <div class="diffskc" onclick="arrowChange(event)">
+                  <i class="fa-brands fa-html5"></i> Frontend Languages
+                </div>
+                <ul class="active">
+                  <li>HTML <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>CSS <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>JavaScript <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                  <li>React <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>Python Flask <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill2 skill">
+                <div class="diffskc" onclick="arrowChange(event)">
+                  <i class="fa-solid fa-database"></i> Backend Languages
+                </div>
+                <ul>
+                  <li>Node Js <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                  <li>MySql <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>Mongo Db <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                  <li>Firebase <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>PHP <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill3 skill">
+                <div class="diffskc" onclick="arrowChange(event)">
+                  <i class="fa-solid fa-database"></i>
+                  Programming Langs
+                </div>
+                <ul>
+                  <li>Java <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>Python <span>90%</span></li>
+                  <li class="bar-90">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>C <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill4 skill">
+                <div class="diffskc" onclick="arrowChange(event)">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                  Tools
+                </div>
+                <ul>
+                  <li>Microsoft Presentation <span>90%</span></li>
+                  <li class="bar-80">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>Microsoft Word <span>90%</span></li>
+                  <li class="bar-80">
+                    <div class="fill90"></div>
+                  </li>
+                  <li>Microsoft Excel <span>80%</span></li>
+                  <li class="bar-80">
+                    <div class="fill"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sec44"></div>
+        <div class="sectionc" id="sec4">
+          <h1>Qualification</h1>
+          <h4>My Education Details</h4>
+          <div class="educ">
+            <div class="edub">
+              <h4>10th CBSE BOARD</h4>
+              <p>Sterling School</p>
+              <p>Percentage: 77%</p>
+              <p>May 2014</p>
+              <br /><br />
+            </div>
+            <div class="edub">
+              <h4>Diploma Maharashtra State Board</h4>
+              <p>D.Y Patil College, Nerul</p>
+              <p>Percentage: 75.31%</p>
+              <p>May 2019</p>
+              <br /><br />
+            </div>
+            <div class="edub">
+              <h4>Degree Mumbai University</h4>
+              <p>S.I.E.S Graduate School of Technology</p>
+              <p>Year: SE CE</p>
+              <p>SGPA: 8.89</p>
+              <p>May 2021</p>
+            </div>
+            <div class="edub">
+              <h4>Degree Mumbai University</h4>
+              <p>S.I.E.S Graduate School of Technology</p>
+              <p>Year: TE CE</p>
+              <p>SGPA: 8.17</p>
+              <p>May 2021</p>
+            </div>
+          </div>
+        </div>
+        <div id="sec55"></div>
+        <div class="sectionc" id="sec5">
+          <h1>Projects</h1>
+          <h4>Most Recent Projects</h4>
+          <div class="slideshow">
+            <button onclick="ChangeChecked('prev')">
+              <i
+                class="fa-solid fa-angle-left"
+                style="color: rgb(0, 46, 196); font-size: 4em"
+              ></i>
+            </button>
+            <div class="slidebox">
+              <div class="projbox">
+                <div class="photoc">
+                  <img src="./images/Farmers Portal.png" alt="not Found" />
+                </div>
+                <div class="infoc">
+                  <h3>Farmer's Portal</h3>
+                  <p>
+                    Farmers Portal Using Html, Css, php, java script, MySQL to
+                    help farmers sell their products information about subsidies
+                    crops in their region, crop predictor.
+                  </p>
+                  <button
+                    onclick="openNewWindow('https://drive.google.com/file/d/17ilIYHxkwMo2tj7Ehege2g3Im0cEgOVu/view?usp=sharing')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+              <div class="projbox">
+                <div class="photoc">
+                  <img
+                    src="./images/Plant Disease Detection.png"
+                    alt="not Found"
+                  />
+                </div>
+                <div class="infoc">
+                  <h3>Plant disease detection</h3>
+                  <p>
+                    Plant Disease Detection using Machine learning algorithms
+                    like random forest clustering and Decision tree.Frontend
+                    using python flask.
+                  </p>
+                  <button>Demo</button>
+                </div>
+              </div>
+              <div class="projbox" id="far1">
+                <div class="photoc">
+                  <img src="./images/React Rest Api.png" alt="not Found" />
+                </div>
+                <div class="infoc">
+                  <h3>Display user details of 10 users</h3>
+                  <p>
+                    Display Name, contact, website, email, phone, profile image
+                    using rest api in json format in react. Buttons to edit and
+                    delete profile. Persist data using redux and make api call
+                    only in 60 minutes. Used Ant-Design library to add buttons,
+                    icons and styles
+                  </p>
+                  <button
+                    onclick="openNewWindow('https://chat-app-9e5f3.web.app/ ')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+              <div class="projbox" id="far1">
+                <div class="photoc">
+                  <img src="./images/Ecommerce.png" alt="not Found" />
+                </div>
+                <div class="infoc">
+                  <h3>Ecommerce app in react</h3>
+                  <p>
+                    Ecommerce Project using React, Node Js, Stripe APi for
+                    payments, Cloudinary for storing static file, Mongodb for
+                    storing users and product details. Features Like Reviews,
+                    Filter, Admin Dashboard and functions like adding proudct,
+                    Delivery, Cart, Search.
+                  </p>
+                  <button
+                    onclick="openNewWindow('https://drive.google.com/file/d/1jqRv4luKULUJY8B2pLBkFezPpHldc2et/view?usp=sharing')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+              <div class="projbox" id="far1">
+                <div class="photoc">
+                  <img
+                    src="./images/Personality Prediction.png"
+                    alt="not Found"
+                  />
+                </div>
+                <div class="infoc">
+                  <h3>Personality Prediction</h3>
+                  <p>
+                    Personality Prediction using python flask, html, CSS, MySQL.
+                    Used Big Five model to predict personality used
+                    questionnaire to get OCEAN values. Extract keywords from cv
+                    using pyresparser and combine with questionnaire to predict
+                    personality
+                  </p>
+                  <button
+                    onclick="openNewWindow('http://prasadiyer.pythonanywhere.com/')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+              <div class="projbox" id="far1">
+                <div class="photoc">
+                  <img src="./images/Next JS .png" alt="not Found" />
+                </div>
+                <div class="infoc">
+                  <h3>Next Js app</h3>
+                  <p>
+                    App used for fetching details about github users and
+                    projects. Made from scratch using html, css, javascript.
+                    Used server side rendering for pages.
+                  </p>
+                  <button
+                    onclick="openNewWindow('https://git-ap-i.vercel.app/')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+              <div class="projbox" id="far1">
+                <div class="photoc">
+                  <img src="./images/React Chat App.png" alt="not Found" />
+                </div>
+                <div class="infoc">
+                  <h3>Chat App in react</h3>
+                  <p>
+                    Chat App using react redux firebase. Using Firebase Object
+                    to do login using Google or Facebook can add chatrooms. Need
+                    to request access before messaging in room. Can send files,
+                    Videos, Images and Audio. Firebase Database is used for
+                    storing files like profile images.
+                  </p>
+                  <button
+                    onclick="openNewWindow('https://chat-web-app-920f7.web.app/')"
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button onclick="ChangeChecked('next')">
+              <i
+                class="fa-solid fa-angle-right"
+                style="color: rgb(0, 46, 196); font-size: 4em"
+              ></i>
+            </button>
+          </div>
+          <br />
+
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+            checked
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <input
+            class="sliera"
+            name="same"
+            onclick="ChangeSlide(event)"
+            type="radio"
+          />
+          <div id="sec66"></div>
+          <div class="sectionc" id="sec6">
+            <h1>Contact Details</h1>
+            <div class="conc">
+              <div class="conin">
+                <p><i class="fa-solid fa-phone"></i> Phone no: 8779849708</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: prasadiyer25@gmail.com</p>
+              </div>
+              <div class="gemes">
+                <form action="https://formspree.io/f/xnqykeok" method="POST">
+                  <label>
+                    Your Name:
+                    <input type="text" name="Name" />
+                  </label>
+                  <label>
+                    Your Company:
+                    <input type="text" name="Company" />
+                  </label>
+                  <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                  </label>
+                  <!-- your other form fields go here -->
+                  <button type="submit">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="footer">
+          <h1>Footer</h1>
+        </div>
+      </div>
+      <script
+        src="https://kit.fontawesome.com/bd5191da65.js"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        window.addEventListener('scroll', function() {
+  var hiddenElement = document.querySelector('.stscroll');
+  
+  if (window.pageYOffset > 500) {
+    hiddenElement.style.display = 'block';
+  } else {
+    hiddenElement.style.display = 'none';
+  }
+});
+        function submenu() {
+          var ele = document.querySelector("#navbarc .submen");
+          if (getComputedStyle(ele).display == "none") {
+            ele.style.display = "block";
+          } else {
+            ele.style.display = "none";
+          }
+        }
+        function ChangeChecked(event) {
+          var ele = document.querySelectorAll("#sec5 .sliera");
+          for (var i = 0; i < 10; i++) {
+            if (ele[i].checked == true) {
+              if (event == "next" && i != 9) {
+                ele[i + 1].checked = true;
+                ChangeSlide();
+                break;
+              } else if (event == "prev" && i != 0) {
+                ele[i - 1].checked = true;
+                ChangeSlide();
+                break;
+              }
+            }
+          }
+        }
+
+        function ChangeSlide() {
+          const slidebox = document.querySelector(".slidebox");
+          const slideboxWidth = parseInt(getComputedStyle(slidebox).width);
+          var ele = document.querySelectorAll("#sec5 .sliera");
+          var index;
+          for (var i = 0; i < 10; i++) {
+            if (ele[i].checked == true) {
+              index = i;
+              break;
+            }
+          }
+          if (ele[index].checked == true) {
+            var ele = document.querySelectorAll("#sec5 .sliera");
+
+            slidebox.scrollTo({
+              left: slideboxWidth * index,
+              behavior: "smooth",
+            });
+          }
+        }
+        function scrollTos() {
+          const slidebox = document.querySelector(".slidebox");
+          const slideboxWidth = window.getComputedStyle(slidebox).width;
+
+          console.log(slideboxWidth);
+          var ele = document.querySelector("#sec5 .slidebox");
+          ele.scrollBy({
+            left: parseInt(slideboxWidth),
+            behavior: "smooth",
+          });
+        }
+        function openNewWindow(url) {
+          window.open(url, "_blank");
+        }
+
+        function arrowChange(thiss) {
+          var ele = document.querySelector("#sec3 .active");
+          ele.classList.remove("active");
+          var ele = document.querySelectorAll("#sec3 .diffskc");
+          var parentElement = thiss.target.parentNode;
+          var elements = document.querySelectorAll("#sec3 .diffskc");
+          var index = Array.from(elements);
+          for (var i = 0; i < 4; i++) {
+            if (index[i] == thiss.target) {
+              var ele = document.querySelectorAll("#sec3 .skill ul");
+              ele[i].classList.add("active");
+            }
+          }
+        }
+      </script>
+    </body>
+  </head>
+</html>

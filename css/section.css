@@ -1,0 +1,399 @@
+.sectionc{
+    margin-top: 5em;
+}
+
+#sec1 {
+    display: flex;
+    justify-content: center;
+    
+}
+#sec1 .iconc a{
+    display: block;
+    padding: 0.5em;
+}
+#sec1 .iconc{
+    margin: auto 0 auto 0;
+  height: fit-content;
+   order: 1;
+   margin-right: 2em;
+}
+#sec1 .scrolc{
+    
+}
+#sec1 .photoc {
+    padding: 1em;
+    width: 18em;
+    height: 18em;
+    order: 3;
+}
+#sec1 .photoc img{
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
+}
+#sec1 .textc{
+    width: 40%;
+    min-width: 15em;
+    order: 2;
+    
+}
+
+#sec1 button{
+    background-color: rgb(117, 13, 117);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    padding: 1em;
+    border-radius: 0.28em;
+}
+#bodyc .scrolc{
+    padding: 2em;
+    text-align: center;
+    
+}
+#bodyc .scrolc a,#bodyc .scrolc a:visited{
+    padding: 0.4em;
+    border: 1px solid black;
+    border-radius: 2em;
+    text-decoration: none;
+    color: black;
+}
+#sec2 {
+    text-align: center;
+}
+#sec2 .contentc{
+    display: flex;
+    justify-content: center;
+}
+#sec2 .photoc{
+      width: 24%;
+      min-width: 15em;
+      height: 20em;
+      margin-right: 2em;
+      margin: auto 2em auto 0;
+}
+#sec2 .photoc img{
+    width: 15em;
+    height: 20em;
+    border-radius: 2em;
+    border: none;
+    
+}
+#sec2 .textc{
+    width: 40%;
+    min-width: 17em;
+    text-align: start;
+}
+#sec2 .projbox{
+    display: inline-block;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+#sec2 .projbox h2,#sec2 .projbox p{
+    padding: 0;
+    margin: 0;
+    line-height: 1.1em;
+    text-align: center;
+}
+#sec2 .projbox p{
+    width: 5.9em;
+    color: rgb(75, 75, 75);
+}
+@media only screen and (max-width: 1228px){
+    #sec1{
+        flex-wrap: wrap;
+    }
+    #sec1 .photoc {
+        width: 12em;
+        height: 12em;
+        order:2;
+        
+    }
+    #sec1 .photoc img{
+        width: 12em;
+        height: 12em;
+        
+    }
+    #sec1 .textc{
+        padding: 1em;
+        text-align: center;
+        width: 70%;
+        min-width: 18em;
+        order: 3;
+        font-size: medium;
+    }
+    #sec1 .textc p{
+        text-align: start;
+    }
+    #sec2 .contentc{
+        flex-wrap: wrap;
+        
+    }
+    #sec2 .projbox{
+        font-size: 70%;
+        margin-right: 1em;
+    }
+}
+#sec2 .cvbut{
+    display: block;
+    margin: 2em 0 0 0;
+    border: none;
+    background-color: blueviolet;
+    padding: 1em;
+    font-weight: 800;
+    color: white;
+    font-size: 1em;
+    border-radius: 1em;
+}
+#sec3 {
+    text-align: center;
+}
+#sec3 ul,#sec3 li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#sec3 .skillsc{
+    text-align: center;
+    
+    width: 48%;
+    min-width: 17.8em;
+    padding: 0 0 0 1em;
+    display: block;
+    margin: auto;
+    
+}
+#sec3 .skill{
+    width: 47%;
+    min-width: 17em;
+    
+    text-align: start;
+    display: inline-block;
+    
+    vertical-align: top;
+    margin:  1em 1em 1em 0;
+    transition:  1s display ease;
+}
+#sec3 .skill ul{
+    margin-top: 1em;
+    display: none;
+}
+#sec3 .skill .diffskc:has(+ul.active) + ul{
+    display: block;
+} 
+
+#sec3 .skill .diffskc::after{
+    content: "▼";
+    float: right;
+}
+#sec3 .skill .diffskc:has(+ ul.active)::after{
+    content: "▲";
+    
+}
+#sec3 .diffskc{
+    font-size: larger;
+    font-weight: 800;
+}
+#sec3 .skill ul li span{
+    float: right;
+    color: rgb(59, 59, 59);
+}
+#sec3 .bar-80{
+    border-radius: 5em;
+    background-color: rgb(132, 144, 255);
+}
+#sec3 .fill{
+    width: 80%;
+    height: 0.4em;
+    background-color: rgb(7, 42, 241);
+    border-radius: 5em;
+}
+#sec3 .fill90{
+    width: 90%;
+    height: 0.4em;
+    border-radius: 5em;
+    background-color: rgb(7, 42, 241);
+}
+#sec3 .bar-90{
+    background-color: rgb(132, 144, 255);
+    border-radius: 5em;
+}
+
+
+#sec4 .educ{
+    width: 21.4em;
+    display: block;
+    margin: auto;
+    padding-left: 0.8em;
+}
+#sec4 .edub {
+    background: url("../images/line.jpg") no-repeat;
+    background-position: right;
+    background-size: 5em 100%;
+    padding-bottom: 1em;
+    text-align: start;
+    
+}
+#sec4 .edub p{
+    width: 18em;
+    margin-bottom: 0;
+    
+}
+#sec4 .edub h4{
+    margin-top: 0;
+}
+#sec4{
+    text-align: center;
+}
+#sec5{
+    text-align: center;
+}
+#sec5 .slideshow{
+    width: 58em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#sec5 .projbox{
+    height: 20em;
+    display: flex;
+    flex: 1 0 100%;
+}
+#sec5 .projbox img{
+    width: 100%;
+    height: 18em;
+    border-radius: 2em;
+    margin-top: 1em;
+    min-width: 267px;
+}
+#sec5 .slideshow button{
+    border: none;
+    height: 70px;
+    border-radius: 2em;
+    background-color: white;
+    color: black;
+    margin: auto 0 auto 0;
+    overflow-y: visible;
+    padding-bottom: 0;
+}
+#sec5 .slidebox {
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+   
+    overflow-y: visible;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#sec5 .slidebox::-webkit-scrollbar {
+    width: 0.1em; /* Adjust as needed */
+    background-color: transparent;
+  }
+#sec5 .infoc{
+    width: 100%;
+    
+}
+#sec5 .photoc{
+    width: 40%;
+}
+#sec5 .projbox button{
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(148, 77, 255);
+    border-radius: 0.8em;
+}
+@media only screen and (max-width:942px){
+    #sec5 .projbox {
+        flex-wrap: wrap;
+    }
+    #sec5 .slidebox{
+        height: 38em;
+    }
+    #sec5 .projbox .photoc{
+        margin: auto;
+        width: 100%;
+    }
+    #sec5 .slideshow{
+        width: 100%;
+    }
+    
+}
+#sec5 input[type="radio"]{
+    content: "";
+    appearance: none;
+    outline: none;
+    background-color: rgb(147, 205, 255);
+    width: 1em;
+    height: 1em;
+    border-radius: 5em;
+}
+#sec5 input[type="radio"]:checked{
+    background-color: rgb(0, 136, 255);
+}
+#sec6{
+    text-align: center;
+    
+    
+}
+#sec6 .conin {
+    width: 18em;
+    text-align: start;
+    margin: auto;
+}
+#sec6 .conc{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sec6 .gemes{
+    border-radius: 1em;
+    width: 15em;
+    height: 20em;
+    box-shadow: black 0 0 4px;
+    margin: 1em auto 1em auto;
+}
+#sec6 label{
+    display: block;
+    margin-bottom: 2em;
+}
+#sec6 form button{
+    border: none;
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 1.2em;
+    background-color: rgb(15, 15, 163);
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    border-radius: 1em;
+}
+#sec1 .stscroll{
+    text-align: center;
+    width: 2em;
+    height: 1.8em;
+    display: inline;
+    position: fixed;
+    bottom: 10em;
+    right: 4em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 900;
+    border-radius: 0.2em;
+    vertical-align: bottom;
+    display: none;
+}
+#sec1 .stscroll a,#sec1 .stscroll a{
+    text-decoration: none;
+    color: white;
+}
+#footer{
+width: 100%;
+height: 8em;
+background-color: rgb(196, 27, 27);
+}
+#footer h1{
+    color: white;
+    text-align: center;
+}
