@@ -524,12 +524,7 @@
             onclick="ChangeSlide(event)"
             type="radio"
           />
-          <input
-            class="sliera"
-            name="same"
-            onclick="ChangeSlide(event)"
-            type="radio"
-          />
+          
           <div id="sec66"></div>
           <div class="sectionc" id="sec6">
             <h1>Contact Details</h1>
@@ -843,9 +838,9 @@
         }
         function ChangeChecked(event) {
           var ele = document.querySelectorAll("#sec5 .sliera");
-          for (var i = 0; i < 10; i++) {
+          for (var i = 0; i < 9; i++) {
             if (ele[i].checked == true) {
-              if (event == "next" && i != 9) {
+              if (event == "next" && i != 8) {
                 ele[i + 1].checked = true;
                 ChangeSlide();
                 break;
@@ -863,7 +858,7 @@
           const slideboxWidth = parseInt(getComputedStyle(slidebox).width);
           var ele = document.querySelectorAll("#sec5 .sliera");
           var index;
-          for (var i = 0; i < 10; i++) {
+          for (var i = 0; i < 9; i++) {
             if (ele[i].checked == true) {
               index = i;
               break;
